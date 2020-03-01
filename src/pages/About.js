@@ -22,7 +22,7 @@ export default class About extends Component {
           { Counter: $(this).text() },
           {
             duration: 4000,
-            easing: "swing",
+            easing: "ease",
             step: function(now) {
               $(this).text(Math.ceil(now));
             }
